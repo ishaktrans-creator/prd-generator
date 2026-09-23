@@ -39,7 +39,15 @@ export default function Settings({ onApiKeySave }) {
       </div>
       
       <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem', fontSize: '0.9rem' }}>
-        Aplikasi ini membutuhkan Google Gemini API Key untuk menghasilkan PRD. Key Anda hanya disimpan secara lokal di browser ini.
+        Aplikasi ini membutuhkan Google Gemini API Key untuk menghasilkan PRD. Key Anda hanya disimpan secara lokal di browser ini. Belum punya API Key?{' '}
+        <a 
+          href="https://aistudio.google.com/app/apikey" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{ color: '#60a5fa', textDecoration: 'underline' }}
+        >
+          Dapatkan gratis di Google AI Studio &rarr;
+        </a>
       </p>
 
       <form onSubmit={handleSave} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
