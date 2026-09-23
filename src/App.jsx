@@ -9,7 +9,6 @@ function App() {
     <div className="app-container">
       <header>
         <h1>PRD Generator</h1>
-        <p style={{ color: 'var(--text-secondary)' }}>Oleh AI Product Manager</p>
       </header>
 
       <main>
